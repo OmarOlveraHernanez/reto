@@ -78,6 +78,6 @@ Nest is [MIT licensed](LICENSE).
 $ docker build -t challenger-app .
 
 # docker build
-$ docker run -p 3010:3010 challenger-app
+$ docker run -p 3000:3000 challenger-app
 
 ```
