@@ -28,7 +28,11 @@ export class UtilsService {
   }
   //get sum N
   getSumN(n: number): number {
-    return (n * (n + 1)) / 2;
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+      sum += i;
+    }
+    return sum;
   }
   // get factors
   GetFactores(number: number): number[] {
